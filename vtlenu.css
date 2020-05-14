@@ -1,4 +1,7 @@
-﻿html {
+@import "../style.css"
+
+
+html {
   overflow-y: scroll;
 }
 
