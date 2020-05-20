@@ -323,6 +323,11 @@ color:
 .name-checkmark {
     margin-left: 2pt;
     filter: grayscale(100%);
+    
+}
+
+img.name-checkmark {
+   filter: grayscale(100%); 
 }
 
 #profile_link, .profile_link {
@@ -599,6 +604,10 @@ h4 {
     border-bottom: #fff solid 1px;
     font-size: 11px;
     padding: 3px 5px 3px;
+}
+
+.post-author img.name-checkmark {
+    filter: grayscale(100%);
 }
 
 .post-author .date {
