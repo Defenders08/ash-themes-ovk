@@ -1,4 +1,6 @@
 @import "../vkontakte.css";
+
+
 .page_header {
     background: url(https://i.imgur.com/mMBP0Cx.png) no-repeat;
      background-position: 12px 0px;
@@ -58,6 +60,11 @@ input[type="search"] {
     font-size: 12px;
     /* font-family: sans-serif; */
 }
+
+.page_yellowheader a {
+    color: #fff;
+}
+
 .wrap1 {
     border: 1px solid #D8DFEA;
     border-top: 0px;
