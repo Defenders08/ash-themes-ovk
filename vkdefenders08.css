@@ -127,7 +127,7 @@ color:
 .navigation {
     padding: 0;
 }
-/* ìåíþ */
+/* меню */
 
 .navigation .link {
 
@@ -340,7 +340,7 @@ color:
 
 }
 
-/* íà ýòîì ìåñòå ˆ çàïëàêàë */
+/* на этом месте € заплакал */
 
 .page_footer {
     margin-left: 95px;
@@ -352,7 +352,7 @@ color:
 table {
     font-size: 11px;
     text-align: left; 
-    /* íåíàâèæó, áëˆòü, êîñòûëè */
+    /* ненавижу, бл€ть, костыли */
 }
 
 .information {
@@ -367,10 +367,10 @@ table {
 
 /* kun vi tre agrable pensi pri morto 
 
-êñòàòè ýòî èç ïåñíè äåëüôèíà âçˆòî 
-âäðóã êòî íå çíàë
-ˆ ïðîñòî âëþáëªí, èçâèíèòå çà 
-ïèçäîáëˆñêèå êîììåíòàðèè â CSS êîäå 
+кстати это из песни дельфина вз€то 
+вдруг кто не знал
+€ просто влюблЄн, извините за 
+пиздобл€ские комментарии в CSS коде 
 <3                                      */
 
 .page_footer .link {
@@ -409,12 +409,12 @@ table {
 }
 /* 
 
-ó òåáˆ ñïèä
-è çíà÷èò ìû óìðªì
+у теб€ спид
+и значит мы умрЄм
 
 */
 
-/* êíîïêè */
+/* кнопки */
 
 .button {
     border-radius: 2px;
@@ -714,7 +714,7 @@ table.User {
     margin-bottom: -10px;
 }
 
-/* ž“»–”¸ ž“»–”¸ ½Žÿ“¹ */
+/* ћќЌ“»–”ё ћќЌ“»–”ё ЅЋя“№ */
 
 .container_gray .content {
     background: #fff;
@@ -1099,9 +1099,9 @@ textarea {
     padding: 20px;
     width: 100px;
     height: 100%;
-    background-color: #f3f3f3;
+    background-color: #d0d8df;
     font-weight: 900;
-    color: #2b2b2b;
+    color: #45688E;
     box-sizing: border-box;
     opacity: 0;
     transition: .1s all;
