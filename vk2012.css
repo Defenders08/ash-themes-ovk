@@ -51,6 +51,39 @@ input[class=button]:active {
     padding-bottom: 4px;
     text-shadow: 0 1px 0 #45688E;
 }
+.messenger-app--input---messagebox .button {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(https://i.imgur.com/YwMfElB.png) repeat-x;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.messenger-app--input---messagebox .button:hover {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(https://i.imgur.com/E5iIz90.png) repeat-x;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-shadow: 0 1px 0 #45688E;
+}
+.messenger-app--input---messagebox .button:active {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(https://i.imgur.com/NcfwOqZ.png) repeat-x;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-shadow: 0 1px 0 #45688E;
+    
+}
 input[type~="search"] {
     border: 1px solid #395a83;
     padding: 3px;
