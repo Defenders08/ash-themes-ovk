@@ -1,4 +1,4 @@
-@import "../style.css"
+@import "../style.css";
 
 
 html {
@@ -128,7 +128,7 @@ color:
 .navigation {
     padding: 0;
 }
-/* ìåíþ */
+/* меню */
 
 .navigation .link {
 
@@ -213,13 +213,16 @@ color:
 
 
 .page_yellowheader {
-    padding: 5px 10px 2px;
+    /* padding: 5px 10px 2px; */
+    padding: 6px 10px 3px;
     font-weight: bold;
     background: #252525;
     background-color: #252525;
     border-right: solid 1px #222222;
     border-left: solid 1px #222222;
-    border-bottom: solid 1px /* #171717 */ #1a1a1a;
+    /* border-bottom: solid 1px #1a1a1a; */
+    border-top: none;
+    border-bottom: 1px solid #1e1e1e;
     color: #e1e1e1;
     height: 15px;
 
@@ -340,7 +343,7 @@ color:
 
 }
 
-/* íà ýòîì ìåñòå ˆ çàïëàêàë */
+/* на этом месте € заплакал */
 
 .page_footer {
     margin-left: 95px;
@@ -352,7 +355,7 @@ color:
 table {
     font-size: 11px;
     text-align: left; 
-    /* íåíàâèæó, áëˆòü, êîñòûëè */
+    /* ненавижу, бл€ть, костыли */
 }
 
 .information {
@@ -367,10 +370,10 @@ table {
 
 /* kun vi tre agrable pensi pri morto 
 
-êñòàòè ýòî èç ïåñíè äåëüôèíà âçˆòî 
-âäðóã êòî íå çíàë
-ˆ ïðîñòî âëþáëªí, èçâèíèòå çà 
-ïèçäîáëˆñêèå êîììåíòàðèè â CSS êîäå 
+кстати это из песни дельфина вз€то 
+вдруг кто не знал
+€ просто влюблЄн, извините за 
+пиздобл€ские комментарии в CSS коде 
 <3                                      */
 
 .page_footer .link {
@@ -409,12 +412,12 @@ table {
 }
 /* 
 
-ó òåáˆ ñïèä
-è çíà÷èò ìû óìðªì
+у теб€ спид
+и значит мы умрЄм
 
 */
 
-/* êíîïêè */
+/* кнопки */
 
 .button {
     border-radius: 2px;
@@ -751,7 +754,7 @@ table.User {
     margin-bottom: -10px;
 }
 
-/* ž“»–”¸ ž“»–”¸ ½Žÿ“¹ */
+/* ћќЌ“»–”ё ћќЌ“»–”ё ЅЋя“№ */
 
 .container_gray .content {
     background: #fff;
@@ -967,6 +970,21 @@ background: #313131;
     background: #2b2b2b;
     border: none;
     color: #f7f7f7;
+}
+
+.messenger-app--input---messagebox .button {
+    height: 25px;
+    background: #424242;
+}
+
+.messenger-app--input---messagebox .button:hover {
+    height: 25px;
+    background: #4f4f4f;
+}
+.messenger-app--input---messagebox .button:active {
+    height: 25px;
+    background: #353535;
+    padding-top: 6px;
 }
 
 .music-app {
@@ -1325,4 +1343,15 @@ border-color: #404040;
 .ovk-video > div > b > a {
     color: #fff;
     padding-left: 4px;
+} */
+
+/* Скрол */
+
+/* ::-webkit-scrollbar {
+    background: #262626;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background: #2b2b2b;
 } */
