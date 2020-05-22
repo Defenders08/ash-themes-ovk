@@ -1,4 +1,5 @@
-@import "../style.css"
+@import "../style.css";
+
 
 html {
   overflow-y: scroll;
@@ -895,6 +896,7 @@ background: #e1e7ed;
 
 .messenger-app--messages---message .ava, .messenger-app--input > .ava {
     width: 52px;
+    border-radius: 2px;
 }
 
 .messenger-app--messages---message ._content {
@@ -927,6 +929,20 @@ background: #e1e7ed;
     height: 70px;
     resize: none;
     margin-bottom: 1rem;
+}
+
+.messenger-app--input---messagebox .button {
+    height: 25px;
+}
+
+.messenger-app--input---messagebox .button:hover {
+    height: 25px;
+    background: #6d8cb0;
+}
+.messenger-app--input---messagebox .button:active {
+    height: 25px;
+    background: #5c7ca1;
+    padding-top: 6px;
 }
 
 .music-app {
