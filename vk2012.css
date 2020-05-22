@@ -85,3 +85,7 @@ input[type~="search"][name~="query"] {
 .messenger-app--messages---message .ava, .messenger-app--input > .ava {
     border-radius: 2px;
 }
+.sidebar {
+    /* margin-left: 5px; */
+    width: 136px;
+}
