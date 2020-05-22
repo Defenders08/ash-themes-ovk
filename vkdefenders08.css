@@ -1,4 +1,4 @@
-@import "../style.css"
+@import "../style.css";
 
 
 html {
@@ -159,7 +159,7 @@ color:
 }
 
 .navigation .link:hover {
-    background-color: #e2e8ee;
+    background-color: #d3d9df82;
     border-top: none;
 }
 
@@ -213,7 +213,8 @@ color:
 
 
 .page_yellowheader {
-    padding: 4px 10px 3px;
+    /* padding: 4px 10px 3px; */
+    padding: 5px 10px 3px;
     font-weight: bold;
     background: url(https://i.imgur.com/pTz3u77.png) repeat-x;
     background-color: #e9edf1;
@@ -923,6 +924,20 @@ background: #e1e7ed;
     height: 70px;
     resize: none;
     margin-bottom: 1rem;
+}
+
+.messenger-app--input---messagebox .button {
+    height: 25px;
+}
+
+.messenger-app--input---messagebox .button:hover {
+    height: 25px;
+    background: #6d8cb0;
+}
+.messenger-app--input---messagebox .button:active {
+    height: 25px;
+    background: #5c7ca1;
+    padding-top: 6px;
 }
 
 .music-app {
