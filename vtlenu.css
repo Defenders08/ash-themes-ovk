@@ -1,7 +1,6 @@
-@import "../style.css"
-  
-  
-  
+@import "../style.css";
+
+
 html {
   overflow-y: scroll;
 }
@@ -206,7 +205,8 @@ color:
 
 
 .page_yellowheader {
-    padding: 5px 10px 6px;
+    /* padding: 5px 10px 6px; */
+    padding: 5px 10px 5px;
     font-weight: bold;
     background: #d9d9d9;
     background-color: #d9d9d9;
@@ -866,6 +866,8 @@ background: #ececec;
 
 .crp-entry--image > img {
     max-width: 64px;
+    filter: grayscale(50%);
+    
 }
 
 .crp-entry:hover {
@@ -914,10 +916,13 @@ background: #ececec;
 
 .messenger-app--messages---message .ava, .messenger-app--input > .ava {
     max-width: 64px;
+    filter: grayscale(50%);
 }
 
 .messenger-app--messages---message .ava, .messenger-app--input > .ava {
     width: 52px;
+    border-radius: 2px;
+    filter: grayscale(50%);
 }
 
 .messenger-app--messages---message ._content {
@@ -951,6 +956,21 @@ background: #ececec;
     resize: none;
     margin-bottom: 1rem;
     border-color: #999;
+}
+
+.messenger-app--input---messagebox .button {
+    height: 25px;
+    background: #000;
+}
+
+.messenger-app--input---messagebox .button:hover {
+    height: 25px;
+    background: #1c1c1c;
+}
+.messenger-app--input---messagebox .button:active {
+    height: 25px;
+    background: #1e1e1e;
+    padding-top: 6px;
 }
 
 .music-app {
