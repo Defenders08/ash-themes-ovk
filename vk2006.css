@@ -110,3 +110,19 @@ input[type="search"], input[type~="search"], select {
     cursor: pointer;
     text-decoration: none;
 }
+#faqhead {
+    background: #7590ae;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-bottom: 0px;
+    color: #fff;
+}
+#faqcontent {
+    background: #fafafa;
+    margin: 0px 5px 10px 5px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid #ddd;
+    border-top: 0;
+}
