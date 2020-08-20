@@ -1,0 +1,11 @@
+id: vk2015
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+metadata:
+    name:
+        _: "VK 2015 [by Ash Defenders]"
+        en: "VK 2015 [by Ash Defenders]"
+        ru: "ВКонтакте 2015 [by Ash Defenders]"
+    author: "Ash Defenders"
+    description: "Дизайн ВКонтакте 2015 года"
